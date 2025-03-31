@@ -1,0 +1,72 @@
+/* Estilos básicos */
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(25, 82, 227);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 5px solid rgb(184, 224, 245);
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+}
+
+nav a {
+    background-color: #3639f4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(219, 148, 73);
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.imagenes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imagen {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
